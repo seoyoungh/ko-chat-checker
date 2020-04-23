@@ -9,11 +9,11 @@
 
 ## Detail Usage
 
-### chat_processing
+### chat_preprocessing
 전처리 과정에 쓰이는 코드 set입니다.
 
 ### chat_data
-processing이 끝난 카카오톡 데이터입니다.
+preprocessing이 끝난 카카오톡 데이터입니다.
 
 ## Developers
 * [Seoyoung Hong](https://github.com/seoyoungh) from Kyunghee Univ.
