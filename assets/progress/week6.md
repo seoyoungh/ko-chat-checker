@@ -13,8 +13,12 @@
 
 3. Related work 조사
   - [문자열 데이터에 1D CNN 적용한 case](https://cholol.tistory.com/465)
+     - [한국어 text classifiers](https://www.ripublication.com/ijaer18/ijaerv13n4_12.pdf)
+     - [어절 단위의 chatbot sentence classifiers](https://www.aclweb.org/anthology/P17-2089.pdf)
 
 
 ## to do
 1. 데이터 라벨링
    - 문법 오류가 있는 텍스트 어떻게 라벨링할 것인지?
+   
+2. 학습에 이용할 데이터 5:5로 분리 
