@@ -10,8 +10,8 @@
 
 
 2. Case 분류 및 규칙성 조사
-  ![chat_text_feature](/assets/images/chat_text_feature.png){: width="80%" height="80%"}
-  ![chat_text_feature_2](/assets/images/chat_text_feature_2.png){: width="80%" height="80%"}
+  ![chat_text_feature](/assets/images/chat_text_feature.png)
+  ![chat_text_feature_2](/assets/images/chat_text_feature_2.png)
 
 
 3. 띄어쓰기 framework
