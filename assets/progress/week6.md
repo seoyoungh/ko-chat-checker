@@ -6,7 +6,7 @@
      - [Code](/chat_preprocessing/3_preprocessing.py)
 
 
-2. 문법 오류 여부에 따라 데이터 분리
+2. 문법 오류 여부에 따라 데이터 분리 ``still in wokring progress``
    - 맞춤법 검사 opensource
      1. [py-hanspell](https://github.com/ssut/py-hanspell)
          - [네이버 맞춤법 검사 url 변경](https://github.com/ssut/py-hanspell/issues/7)으로 현재 사용 불가
