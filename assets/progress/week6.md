@@ -16,7 +16,8 @@
 
 
 3. Related work 조사
-  - [문자열 데이터에 1D CNN 적용한 case](https://cholol.tistory.com/465)
+  - 1D CNN
+     - [문자열 데이터에 1D CNN 적용한 case](https://cholol.tistory.com/465)
      - [한국어 text classifiers](https://www.ripublication.com/ijaer18/ijaerv13n4_12.pdf)
      - [어절 단위의 chatbot sentence classifiers](https://www.aclweb.org/anthology/P17-2089.pdf)
 
