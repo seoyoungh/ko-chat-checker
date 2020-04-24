@@ -9,9 +9,10 @@
 2. 문법 오류 여부에 따라 데이터 분리
    - 맞춤법 검사 opensource
      1. [py-hanspell](https://github.com/ssut/py-hanspell)
-      - 네이버 맞춤법 검사 url 변경으로 현재 사용 불가
-      - [가장 최근 검색되는 url](https://blog.naver.com/PostView.nhn?blogId=duswl0319&logNo=221516903176&parentCategoryNo=&categoryNo=16&viewDate=&isShowPopularPosts=true&from=search)로 코드 수정해보았지만 여전히 Json error 발생
+         - 네이버 맞춤법 검사 url 변경으로 현재 사용 불가
+         - [가장 최근 검색되는 url](https://blog.naver.com/PostView.nhn?blogId=duswl0319&logNo=221516903176&parentCategoryNo=&categoryNo=16&viewDate=&isShowPopularPosts=true&from=search)로 코드 수정해보았지만 여전히 Json error 발생
      2. [hunspell-dict-ko](https://github.com/spellcheck-ko/hunspell-dict-ko)
+     3. [맞춤법 검사 사이트](https://speller.cs.pusan.ac.kr) 에서 직접 자동화
 
 
 3. Related work 조사
