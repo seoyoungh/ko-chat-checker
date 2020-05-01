@@ -25,20 +25,23 @@
   - 연구에 사용할 프레임워크 및 데이터셋 조사 ⭕️
   - 데이터 수집 및 EDA ⭕️
   - 데이터 전처리 ⭕️
-  - 문법 오류가 있는 데이터와 오류가 없는 데이터 분리 🔜
-  - 데이터 라벨링 작업 수행 및 5:5로 분리
 
 * **May**
-  - 음운 분리 작업 수행
-  - K-fold 도입을 위한 베이스 구축
-  - CNN 기반 모델
-  - RNN(LSTM) 기반 모델 구축
+  - 문법 오류가 있는 데이터와 오류가 없는 데이터 분리 🔜
+  - 표기 오류가 있는 데이터에 대해 라벨링 작업 수행 🔜
+    - 문서 유사도 기법 사용
+  - 모델 학습  
+    - 음절로 분리해 학습 진행
+    - 사용해볼 모델
+      - CharCNN
+      - FastText
+      - ELMo
+      - BERT
   - 모델 성능 비교 및 최종 모델 채택
 
 * **June**
   - 최종 모델 성능 평가 및 보완
   - 파이썬 모듈 구축
-  - 자동 띄어쓰기 및 단어 분리 코드 추가
   - 결과 보고서 작성
   - Github Repo 배포
 
@@ -53,11 +56,6 @@
 
 ## Detail Usage
 
-### chat_preprocessing
-전처리 과정에 쓰이는 코드 set입니다.
-
-### chat_data
-preprocessing이 끝난 카카오톡 데이터입니다.
 
 ## Developers
 * [Seoyoung Hong](https://github.com/seoyoungh) from Kyunghee Univ.
