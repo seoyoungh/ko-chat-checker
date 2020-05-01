@@ -173,7 +173,7 @@
 - 자모 분리 후 단어 유사도 구하는중
   - [edit distance](https://lovit.github.io/nlp/2018/08/28/levenshtein_hangle/)
   - [FastText](https://inspiringpeople.github.io/data%20analysis/word_embedding/)
-- 1) 음절 나누고, 2) 음절 나누지 않고 유사도 구해보기
+- 음절 나누고, 음절 나누지 않고 유사도 구해보기
 
 ## To Do
 1. 학습에 쓰일 데이터 종합하기 (대화체 + 문어체)
