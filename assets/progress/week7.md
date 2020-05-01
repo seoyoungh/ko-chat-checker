@@ -155,7 +155,7 @@
 
 2. 외부 문어체 + 대화체 데이터 수집
 - 문어체 데이터
-  - 한글 위키 dump
+  - [한글 위키 dump](https://github.com/roboreport/doc2vec-api/)
 - 대화체 데이터
   - 수집완료
     - [챗봇 데이터](https://github.com/songys/Chatbot_data)
