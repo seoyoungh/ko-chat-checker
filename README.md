@@ -29,7 +29,7 @@
 * **May**
   - 표기 오류가 없는 문어체 + 대화체 외부 데이터셋 구축 🔜
   - 표기 오류가 있는 데이터 분리, 라벨링 작업 수행 🔜
-    - 외부 데이터와 character level text similarty 구해서 진행
+    - 외부 데이터와 ``character level text similarty`` 구해서 진행
   - 모델 학습  
     - 음절로 분리해 학습 진행
       - e.g.) ``(ㅁ,ㅓ,e) (ㄱ,ㅓ,e) (ㅆ,ㅓ,e)``
