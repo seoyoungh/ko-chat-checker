@@ -85,8 +85,8 @@
 - ``머거써?``를 학습하면 ``죽게써``가 데이터셋에 없어도 잘 변환할 수 있도록
 
 ### 모델 workflow
-0. model-training
-  - 1) 초중종성 단위로 pair 만들기
+1. model-training
+  1) 초중종성 단위로 pair 만들기
   - 2) 종성이 없는 경우 e 추가 (optional)
   - 3) 3의 배수로 embedding 후 학습 시킴
     - text: ``머거써`` (ㅁ,ㅓ,e) (ㄱ,ㅓ,e) (ㅆ,ㅓ,e)
