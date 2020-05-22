@@ -1,14 +1,14 @@
 # Week 10
 
 ## Finished Works
-1. Edit distance 성능 평가
+### 1. Edit distance 성능 평가
 - 전체적으로 잘 찾아내지만 한계 있음
 - good case
 ![ed_result_good](/assets/images/ed_result_good.png)
 - bad case
 ![ed_result_bad](/assets/images/ed_result_bad.png)
 
-2. Seq2Seq 채택 & base 구축
+### 2. Seq2Seq 채택 & base 구축
 - Encoder, Decoder: LSTM
 - hyperparameters 조정, attention 적용 등 Seq2Seq의 성능을 높이는 방향으로 갈 예정
 - performance:
@@ -80,11 +80,11 @@ Epoch: 20 | Time: 0m 6s
 	 Val. Loss: 0.843 |  Val. PPL:   2.323
 ```
 
-3. Padding 성능
+### 3. Padding 성능
 - 종성 padding 부여
 - e.g.) text: ``ㅈㅓP/ㄱㅣP/ㅇㅛㅁ``	label: ``ㅈㅓP/ㄱㅣP/ㅇㅛP``
 
-4. Case 일반화
+### 4. Case 일반화
 - 데이터가 작기 때문에 모델에게 정보를 더 부여해 성능을 높일 계획
 - 표기 오류에 rule이 아예 없는 것은 아님, 그 rule을 발견할 수 있도록
 - sequence의 대부분이 같고 특정 부분만 변함
@@ -114,21 +114,21 @@ can predict:
 (ㅁㅓㄱㅇㅓㅅㄴㅣ)(ㅁㅓㄱㅇㅓㅆㄴㅣ)
 ```
 
-5. 기타 이슈
-- CharCNN, ELMo -> 주로 text classification에 사용, 결이 달라서 기[]
+### 5. 기타 이슈
+- CharCNN, ELMo -> 주로 text classification에 사용, 결이 달라서 기각
 - BERT는 모델 자체가 큼, 우리 데이터는 비교적 작아서 일단 차선책으로 보류
 - FastText: 한국어 임베딩 관련해 모델 자체 오류 있어서 사용 어려움, 계속 research 중
 
-6. Model Outline
+### 6. Model Outline
 
-1) 데이터 대조
+1. 데이터 대조
 - 우리 labelled 데이터에서 커버할 수 있는지
 
-2-1) Text similarity
+2-1. Text similarity
 - edit distance
 - (fasttext)
 
-2-2) Prediction
+2-2. Prediction
 - Seq2Seq
 
-3) 최종 결2)
+3. 최종 결과
