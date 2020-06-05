@@ -58,8 +58,8 @@ def main():
     - model output 리
   - **``model output`` not in ``edit_list``:**
     - 세가지 케이스 정확도 비교해서 예측 알고리즘 확정하기
-          1) 그냥 모델 아웃풋 리턴
-          2) 모델 output의 edit distance가 일정 수준 이하이면 edit output 리턴
+          1) 그냥 모델 아웃풋 리턴  
+          2) 모델 output의 edit distance가 일정 수준 이하이면 edit output 리턴  
           3) 모델 output의 edit distance가 edit output보다 크면 edit output 리턴
 
 2) 코드 패키지화
