@@ -32,7 +32,7 @@ from Utils import * # other functions
 
 def main():
   text = spacer("이짜나, 햇졍! 밥머것어! 배고픈뎅@ 머행 😌!") # input, 띄어쓰기
-  text_list = tokenizer(text) # spacing 단위로 문장 나누
+  text_list = tokenizer(text) # spacing 단위로 문장 나누기
   id_list, wrong_list = check_error(text_list) # 표기 오류 찾기
   fianl_wrong, pceq = clean_w_pceq(id_list, text_list) # 특수문자 제거 but .,!?는 index 기억했다가 표기 교정 후 다시 붙여줌
   seq = seq2seq(wrong_list) # custom model 교정 결과
