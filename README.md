@@ -24,7 +24,6 @@ text: 모해용 label: 뭐해요
 
 modified text
 text: ㅁㅗPㅎㅐPㅇㅛㅇ label: ㅁㅝPㅎㅐPㅇㅛP
-
 ```
 그리고 적은 데이터를 보완하고, case를 일반화하기 위해 n-gram 기법을 적용해 10159개로 학습 데이터를 늘렸습니다.
 ```
@@ -32,7 +31,6 @@ text: ㅁㅗPㅎㅐP label: ㅁㅝPㅎㅐP
 text: ㅗPㅎㅐPㅇ label: ㅝPㅎㅐPㅇ
 text: PㅎㅐPㅇㅛ label: PㅎㅐPㅇㅛ
 text: ㅎㅐPㅇㅛㅇ label: ㅎㅐPㅇㅛP
-
 ```
 
 결과적으로, 아래와 같은 성능을 내는 모델을 구축했습니다.
