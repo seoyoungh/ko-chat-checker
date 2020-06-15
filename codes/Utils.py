@@ -301,6 +301,9 @@ def character_is_korean(c):
             (moum_begin <= i <= moum_end))
 
 def make_shorter_word(word):
+  '''
+  좋아아 -> 좋아, 으으으응-> 응, 뭐해애애-> 뭐해 로 바꾸어주는 함수
+  '''
   de = []
   output = []
   for w in word:
