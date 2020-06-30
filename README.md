@@ -95,6 +95,32 @@ output
 있잖아, 배고픈데 뭐해 밥 먹었어! 아까 밥 먹었지 월요일에 볼까? 좋아요 사랑해 😌!
 ```
 
+
+
+## workflow 
+
+
+![workflow](https://github.com/seoyoungh/ko-chat-checker/blob/master/progress/assets/images/workflow.JPG)
+
+
+
+
 ## Developers
 * [Seoyoung Hong](https://github.com/seoyoungh) from Kyunghee Univ.
 * [Midan Shim](https://github.com/midannii) from Kyunghee Univ.
+
+
+
+|  Period    |    workflow     |   role.  |
+| :------------- | :------------- | :---------------|
+| 4월 | 	데이터 수집| 	홍서영, 심미단 | 
+ | 4월 | 데이터 전처리 및 라벨링	홍서영, 심미단  | 
+ | 4월 | 	모델 리서치	홍서영 | 
+ | 5월 | 	모델 학습 (charCNN, FastText, ELMo, seq2seq)	홍서영, 심미단 | 
+ | 5월 | 	edit distance 코드 작성	심미단 | 
+ | 5월 | 	최종 모델 채택 및 보완 (seq2seq)	홍서영 | 
+ | 6월 | 	모델과 edit distance의 성능 비교 	홍서영, 심미단 | 
+ | 6월 | 	파이썬 모듈 구축	홍서영 | 
+ | 6월	 | 결과 보고서 작성	홍서영, 심미단 | 
+ | 4월 - 6월 | github repository 작성	홍서영, 심미단 | 
+
