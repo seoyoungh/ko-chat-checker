@@ -15,6 +15,7 @@
 교정을 위해 다음 두 가지 방법을 사용합니다.  
 
 1) ``Seq2Seq`` Model with ``Attention``
+[Model Reference](https://github.com/bentrevett/pytorch-seq2seq/blob/master/6%20-%20Attention%20is%20All%20You%20Need.ipynb)
 
 모델 학습에 쓰인 채팅체 데이터는 두 연구자의 카톡 데이터에서 공통으로 나온 단어만 추출한 데이터입니다. 전체 21923개의 단어 중 2432개가 의도적인 표기 오류를 포함한 case로 분류되었습니다. 그리고, 모델 학습을 위해 해당 단어를 교정해 라벨링했습니다. 더 나은 모델학습을 위해 단어의 초,중,종성을 분리하고 종성이 없는 경우 padding을 넣었습니다.
 
