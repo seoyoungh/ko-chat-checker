@@ -45,7 +45,7 @@ text: ㅎㅐPㅇㅛㅇ label: ㅎㅐPㅇㅛP
   - 93.3% (9476/10159)
 
 2) ``Edit Distance``
-[What is Edit Distance?](https://en.wikipedia.org/wiki/Edit_distance)
+[What is Edit Distance?](https://en.wikipedia.org/wiki/Edit_distance)  
 텍스트 유사도를 구하기 위한 척도로 자모 분리 후의 ``Edit Distance``를 채택했습니다. [빠른 한글 수정 거리 검색](https://github.com/lovit/inverted_index_for_hangle_editdistance)을 활용했습니다.
 
 
